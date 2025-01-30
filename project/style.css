@@ -80,8 +80,8 @@ header{
  }
  .brief_details{
     display: flex;
-    flex-direction: colums;
-    width: 70%;
+    flex-direction: column;
+    width: 80%;
     transform: translate(40%, -40%);
  }
 
@@ -100,7 +100,7 @@ header{
  }
 
  .brief_details h1{
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 20px;
  }
 
@@ -139,11 +139,13 @@ header{
  .benefit p{ 
     color: var(--grayishBlue);
  }
-
+ .reason{
+    
+ }
  .reason .why_list{
     display: flex;
     justify-content: space-between;
-    gap: 1,5em;
+
  }
 
  .why_list > div img{
@@ -371,4 +373,4 @@ header{
         align-items: center
     }
 
-}request
+}
